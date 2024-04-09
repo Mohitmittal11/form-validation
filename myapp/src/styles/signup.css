@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.signUpMainContaier .main-container {
+display: flex;
+}
+.signUpMainContaier .left-container {
+    width: 50%;
+}
+.signUpMainContaier .right-container {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(36, 166, 131);
+    border-top-left-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.signUpMainContaier .right-container h1 {
+    text-align: center;
+    padding: 300px 0px;
+    color: white;
+    font-size: 40px;
+}
+.signUpMainContaier .signin-card {
+    margin: 130px auto;
+    height: fit-content;
+    width: 340px;
+    padding: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.signUpMainContaier .signin-card input {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    text-indent: 30px;
+    background-color:whitesmoke;
+    border: none;
+}
+.showinput {
+    position: relative;
+}
+.showbutton {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    width: fit-content;
+    padding: 3px 8px;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 550;
+}
+.signUpMainContaier .signin-card input:focus {
+   outline: none;
+}
+.signUpMainContaier .signin-card input::placeholder {
+    font-size: 15px;
+}
+.signUpMainContaier #btn {
+    width: 100%;
+    padding: 10px 0px;
+    cursor: pointer;
+    background-color:rgb(36, 166, 131) ;
+    color: white;
+    font-size: 18px;
+    border: none;
+    font-weight: 500;
+    margin: 14px 0px;
+}
+.signUpMainContaier span {
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+.signUpMainContaier .left-container p {
+    text-align: center;
+    margin-top: 8px;
+}

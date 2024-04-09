@@ -1,0 +1,10 @@
+.data {
+    display: flex;
+    justify-content: flex-end;
+}
+.linkstyle {
+padding: 10px 20px;
+text-decoration: none;
+color: black;
+font-size: 18px;
+}

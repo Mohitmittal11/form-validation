@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+} 
+.leftheader img {
+    height: 45px;
+    width: 45px;
+    mix-blend-mode:lighten;
+
+}
+.leftheader {
+    display: flex;
+    justify-content: flex-start;
+}
+.left-content h3 {
+    color: white;
+}
+.left-content p {
+    color: white;
+    font-size: 13px;
+    text-shadow: 2px 2px 8px blue;
+}
+span {
+    background-color: rgb(133, 196, 9);
+    font-size: 12px;
+    padding: 3px 3px;
+    color: black;
+}
+.rightheader a {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+}

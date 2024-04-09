@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing</title>
+    <link rel="stylesheet" href="./Architect.css">
+    <script>
+        function myFuncton() {
+            var currentStyle = document.getElementById("sideitem");
+            if (currentStyle.style.display === "block") {
+                currentStyle.style.display = "none";
+            }
+            else {
+                currentStyle.style.display = "block";
+            }
+            console.log(currentStyle);
+        }
+    </script>
+
+</head>
+
+<body>
+        <div class="main">
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="#"><b>BR</b> Architects </a>
+            </div>
+            <div class="sidenav" id="sideitem">
+                <a href="#">Projects </a>
+                <a href="#">About </a>
+                <a href="#">Contact</a>
+            </div>
+            <button id="btnnav" onclick="myFuncton()">show</button>
+        </div>
+        <div class="homeimage">
+            <div class="imgtext">
+                <h3>BR</h3>
+                <p>Architects</p>
+            </div>
+        </div>
+        <div class="project">
+            <h2 class="heading1">Projects</h2>
+            <div class="imgrow">
+                <div class="img1">
+                    <img src="./house1.jpg">
+                    <p>Summer House</p>
+                </div>
+                <div class="img2">
+                    <img src="./house2.jpg">
+                    <p>Brick House</p>
+                </div>
+                <div class="img3">
+                    <img src="./house3.jpg">
+                    <p>Renovated</p>
+                </div>
+                <div class="img4">
+                    <img src="./house4.jpg">
+                    <p>Barn House</p>
+                </div>
+                <div class="img5">
+                    <img src="./house5.jpg">
+                    <p>Summer House</p>
+                </div>
+                <div class="img6">
+                    <img src="./house6.jpg">
+                    <p>Brick House</p>
+                </div>
+                <div class="img7">
+                    <img src="./house7.jpg">
+                    <p>Renovated</p>
+                </div>
+                <div class="img8">
+                    <img src="./house8.jpg">
+                    <p>Barn House</p>
+                </div>
+            </div>
+        </div>
+            <div class="about">
+                <h2 class="heading2">About</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi libero ipsum eaque rerum ratione
+                    tempora quos pariatur nam fuga, harum illum esse atque iste optio ipsa animi sed assumenda commodi
+                    saepe officiis! In error reiciendis autem, nisi architecto minus tempore fugit velit qui deserunt
+                    nesciunt necessitatibus accusantium quod consequatur sunt explicabo voluptas eveniet ratione
+                    doloribus. Deserunt rerum fuga, fugit saepe debitis consequatur alias quas tempore? Iste
+                    consequuntur iure quidem enim eveniet modi magnam inventore! Porro, unde amet. Facilis sint esse
+                    inventore corporis sit reprehenderit, saepe placeat quo rem tenetur libero, possimus similique
+                    praesentium optio cupiditate officiis consequatur id architecto nemo.</p>
+            </div>
+            <div class="person">
+                <div class="person1">
+
+                    <img src="./person1.jpg">
+
+                    <h2>John Doe</h2>
+                    <p class="occupation">CEO & Founder</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum laudantium enim consectetur
+                        nesciunt voluptate veniam perspiciatis porro eum ut saepe?</p>
+                    <button>Contact</button>
+                </div>
+                <div class="person2">
+                    <img src="./person2.jpg">
+                    <h2>Jane Doe</h2>
+                    <p class="occupation">Architect</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta illum temporibus delectus sunt
+                        nulla animi ea fugiat doloribus exercitationem et.</p>
+                    <button>Contact</button>
+                </div>
+                <div class="person3">
+                    <img src="./person3.jpg">
+                    <h2>Mike Ross</h2>
+                    <p class="occupation">Architect</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, natus ipsam! Dolorem, ut
+                        ipsum mollitia quae iure reiciendis delectus dolores?</p>
+                    <button>Contact</button>
+                </div>
+                <div class="person4">
+                    <img src="./person4.jpg">
+                    <h2>Dan Star</h2>
+                    <p class="occupation">Architect</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum pariatur odit libero veritatis
+                        temporibus quisquam iure cupiditate esse nostrum natus?</p>
+                    <button>Contact</button>
+                </div>
+            </div>
+            <div class="Contact">
+                <h2>Contact</h2>
+                <div class="formdata">
+                    <p>Let's get in touch and talk about your next Project.</p>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <input type="text" placeholder="Comment">
+                    <button id="btn">SEND MESSAGE</button>
+                </div>
+            </div>
+        <div class="cityimage">
+            <img src="./map.jpg">
+        </div>
+        <div class="endcontainer">
+            <p>powered by <a href="#">CSS</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
