@@ -1,5 +1,4 @@
 import React from 'react'
-import Childone from './Childone'
 
 const Parent1 = () => { 
 
