@@ -6,6 +6,7 @@ import Game from './component copy User/Game';
 import { createContext, useState } from 'react';
 import Signup from './/component copy User/Signup';
 import Signin from './/component copy User/Signin';
+import Yupvalidation from './component copy User/Yupvalidation';
 // import Parentcompnent from './childtoparent/Parentcompnent';
 
 const newcontext= createContext();
@@ -13,9 +14,7 @@ const newcontext= createContext();
 
 const App=() => {
   return (
-  
-    <div className="App">
-  
+    <div className="App">  
     <Routes>
 
     <Route path='/' element={<Game/>}/>
@@ -23,7 +22,7 @@ const App=() => {
     <Route path='/signin' element={<Signin/>}/>
     </Routes>
 
-  //  
+
     </div>
   
    
