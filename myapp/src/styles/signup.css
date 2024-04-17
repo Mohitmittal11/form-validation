@@ -8,6 +8,13 @@ display: flex;
 .signUpMainContaier .left-container {
     width: 50%;
 }
+.signUpMainContaier .left-container h3 {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    
+}
 .signUpMainContaier .right-container {
     height: 100%;
     width: 50%;

@@ -1,35 +1,29 @@
-
-// import Usecallback from './Usecallback';
-// import Usemomo from './component/Usemomo';
-import { Routes,Route } from 'react-router-dom';
-import Game from './component copy User/Game';
-import { createContext, useState } from 'react';
-import Signup from './/component copy User/Signup';
-import Signin from './/component copy User/Signin';
-import Yupvalidation from './component copy User/Yupvalidation';
-// import Parentcompnent from './childtoparent/Parentcompnent';
-
-const newcontext= createContext();
+import React, { createContext,useState } from "react";
+import Navigation from "./Navigation/Navigation";
 
 
+export const CreateContext=createContext(null);
 const App=() => {
+  const [name, setName] = useState("");
   return (
 
     <div className="App">
-   
-    <Routes>
+    <CreateContext.Provider value={{  
+      name,
+      setName
+    }}>
+    <div>
+    <Navigation/>
+   </div>
 
-    <Route path='/' element={<Game/>}/>
-    <Route path='/signup' element={<Signup/>}/>
-    <Route path='/signin' element={<Signin/>}/>
-    </Routes>
+    </CreateContext.Provider>
 
-  //  
+
+
     </div>
-  
-   
+    
   );
 }
 
 export default App;
-export {newcontext};
+
